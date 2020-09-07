@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts/Icons -->
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Grandstander:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Grandstander:wght@100&family=Lexend+Peta&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+
+    <title>My Calculator</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <p id="course">FSDI 103: Competency Report</p>
+        <i class="fab fa-battle-net"></i>
+        <p id="author">Student: Katelynn Heasley</p>
+    </nav>
+
+    <!-- Header -->
+    <header>
+    <h1>Simple Calculator</h1>
+    <div id="user"></div>
+    </header>
+
+    <!-- Instructions -->
+    <h2 id="rulesHead"><i class="fab fa-think-peaks"></i>Instructions</h2>
+    <div class="rules">
+            <p id="rulesP">
+                Enter two numbers, and we'll show you the results:
+            </p>
+            <div id="rulesIcon">
+                <p><i class="fas fa-plus"></i>Added</p>
+                <p><i class="fas fa-minus"></i>Subtracted</p>
+                <p><i class="fas fa-times"></i>Multipled</p> 
+                <p><i class="fas fa-divide"></i>Divided</p>
+            </div>
+    </div>
+
+    <!-- User JS prompt entries -->
+    <div id="input">
+        <div id="calc"></div>
+        <div id="calc2"></div>
+    </div>
+
+    <!-- Calculation Totals Section -->
+    <h2 id="calcHead"><i class="fab fa-think-peaks"></i>Calculator Totals</h2>
+         <div id="total">
+            <div id="add"></div>
+                <div id="add2"></div>
+            <div id="sub"></div>
+            <div id="mult"></div>
+            <div id="divi"></div>
+        </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <a href="#course" id="top">Top</a>
+        <p id="copyright">Copyright reserved &copy; 2020 Katelynn Heasley</p>
+    </footer>
+
+    <!-- JS Insertion -->
+    <script src ="calculator.js"></script>
+    
+</body>
+</html>
